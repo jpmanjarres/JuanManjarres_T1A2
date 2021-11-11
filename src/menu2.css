@@ -1,0 +1,145 @@
+
+#btn-menu {
+    display: none;
+}
+
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label :hover{
+cursor: pointer;
+background: rgba(0, 0, 0, 0, 0.3);
+
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+a.ex1:hover, a.ex1:active {color: red;}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #003453;
+    text-decoration: none;
+    font-size: 160%;
+}
+
+@media (max-width:768px) {
+
+    .menu{
+        position: absolute;
+        background: #4E94AB;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+        }
+
+    .menu ul {
+        flex-direction: column;
+             }   
+
+    .menu li {
+        border-top: 1px solid #fff;
+            }
+
+}
+
+
+/* prueva */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    /* background-color: #fff; */
+}
+
+ul a { 
+    display: block;
+    padding: 20px;
+    border-right: 1px solid #aaa;
+    text-decoration: none;
+}
+
+ul a:hover {
+    background: #ddd;
+}
+
+.menu {
+    clear: both;
+    max-height: 0;
+    transition: max-heigh .2 ease-out;
+}
+
+.menu-icon{
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+
+
+}
+
+.menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.menu-icon .nav-icon:before {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+
+.menu-icon .nav-icon:after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.menu-btn:checked ~ .menu{
+   max-height: 240px; 
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon::before{
+    transform: rotate(-45deg);
+    top:0;
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon::after{
+    transform: rotate(45deg);
+    top:0;
+}

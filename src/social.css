@@ -1,0 +1,112 @@
+/* Style the Un-order list by setting its list-style to none */
+  .social-media ul {
+    list-style: none;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height and line-height 
+    and float them to left and set its border and border-radius.
+   */
+  .social-media ul li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 4px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .social-media ul li .fa {
+    color: #D8E2DC;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+    to icons for glowing effect and use transition property for smooth transition effect. */
+  /*facebook*/
+  .social-media ul li:hover.linkedin {
+    border: 5px solid white;
+    box-shadow: 0 0 15px white;
+    transition: all 0.5s ease;
+  }
+  
+  .social-media ul li:hover .fa-linkedin {
+    color: #496bb4;
+    text-shadow: 0 0 15px #496bb4;
+    transition: all 0.5s ease;
+  }
+  
+  /*twitter*/
+  .social-media ul li:hover.twitter { 
+    border: 4px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+  .social-media ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+
+  
+  /* whatsapp */
+  .social-media ul li:hover.whatsapp {
+    border: 4px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  
+  .social-media ul li:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  
+   /* github */
+   .social-media ul li:hover.github {
+    border: 4px solid #180b50;
+    box-shadow: 0 0 15px #180b50;
+    transition: all 0.5s ease;
+  }
+  
+  .social-media ul li:hover .fa-github {
+    color: #180b50;
+    text-shadow: 0 0 15px #180b50;
+    transition: all 0.5s ease;
+  }
+  
+  /* media queries */
+/*   
+  @media screen and (max-width: 640px){
+    .social-media {
+        width: 350px;
+    }
+    .social-media ul li{
+        margin-top: 10px;
+    }
+    .social-media ul li.google{
+        margin-left: 60px;
+    }
+  } */
+  
+/*   
+  @media screen and (max-width: 340px){
+    .social-media {
+        width: 150px;
+    }
+    .social-media ul li{
+        margin:15px;
+    }
+    .social-media ul li.google{
+        margin-left: 15px;
+    }
+  } */
+  
