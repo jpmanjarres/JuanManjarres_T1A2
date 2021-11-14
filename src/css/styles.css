@@ -68,7 +68,7 @@ img{
 .name {
   margin: auto;
   display: table;
-  width: 170px;
+  width: 420px;
   /* margin-left: 22%;
   margin-top: 5%;
   position: relative;
@@ -223,6 +223,9 @@ p{
  #text {
 margin: auto;
 line-height: 1rem;
-
 }
+.name{
+width: 170px;
+}
+
 }
