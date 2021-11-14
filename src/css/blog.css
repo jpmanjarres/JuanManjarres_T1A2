@@ -11,8 +11,8 @@
   }
   
   /* Header/Blog Title */
-  .header1 {
-
+  header1 {
+margin-top: 10%;
     padding: 30px;
     font-size: 40px;
     text-align: center;
