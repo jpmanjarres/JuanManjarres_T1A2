@@ -6,7 +6,7 @@
 
 ## Link to portfolio GitHub repository
 
-[Github](https://github.com/jpmanjarres/)
+[Github](https://github.com/jpmanjarres/JuanManjarres_T1A2)
 
 ## Description of portfolio website
 

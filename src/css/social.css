@@ -19,7 +19,7 @@
     transition: all 0.5s ease;
   }
   
-  /* Style the icons by setting its color and margin-top value to 20px 
+  /* Style the icons by setting its color and margin-top value to 10px 
   to align it properly */
   .social-media ul li .fa {
     color: #D8E2DC;
@@ -27,9 +27,8 @@
     transition: all 0.5s ease;
   }
   
-  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
-    to icons for glowing effect and use transition property for smooth transition effect. */
-  /*facebook*/
+/* *icons glow effect */
+
   .social-media ul li:hover.linkedin {
     border: 5px solid white;
     box-shadow: 0 0 15px white;
@@ -82,31 +81,3 @@
     text-shadow: 0 0 15px #180b50;
     transition: all 0.5s ease;
   }
-  
-  /* media queries */
-/*   
-  @media screen and (max-width: 640px){
-    .social-media {
-        width: 350px;
-    }
-    .social-media ul li{
-        margin-top: 10px;
-    }
-    .social-media ul li.google{
-        margin-left: 60px;
-    }
-  } */
-  
-/*   
-  @media screen and (max-width: 340px){
-    .social-media {
-        width: 150px;
-    }
-    .social-media ul li{
-        margin:15px;
-    }
-    .social-media ul li.google{
-        margin-left: 15px;
-    }
-  } */
-  

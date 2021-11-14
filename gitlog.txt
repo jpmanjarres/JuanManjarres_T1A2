@@ -1,0 +1,167 @@
+commit 73887c70d4eed38e2d085e0fe38216d136ee812f
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 21:09:32 2021 +1000
+
+    UPDATES
+
+commit a536e40cab9367f649b9fc3bc883e888812ebe28
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 19:37:12 2021 +1000
+
+    name tag updated
+
+commit 148411551b3d51effd35a24d6ab0747faf19c4c3
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 19:30:41 2021 +1000
+
+    name tag updated
+
+commit f745f49e3319be6906d54f12f4ee8424a9677e65
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 19:27:57 2021 +1000
+
+    blog updated
+
+commit 2bc17c9bd105bbcbe1ceb9435cee9551d11d8801
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 19:20:26 2021 +1000
+
+    blog updated
+
+commit 7353a2eaa27abdf0a69a12455741f4b325bdfb9a
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 16:41:58 2021 +1000
+
+    resizing
+
+commit 158d3d3a65bb371cca16011d2ccbf8c4b7b0b73b
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 15:13:38 2021 +1000
+
+    hamburger menu fixed
+
+commit 2673beccac211c8152c9a82b12f5207c21eba87d
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Sun Nov 14 14:27:26 2021 +1000
+
+    hamburger menu fixed
+
+commit d3352aab8934b82fe23699df7ddd547ac3a0c788
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 15:46:03 2021 +1000
+
+    profile pic
+
+commit 9a49154c25e6dc9510b12fdc802af256aab2d7fa
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 15:44:36 2021 +1000
+
+    netlify update
+
+commit 2e4544d7d4b7d714b5de17297e1ca40a3a1bd1a1
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 15:38:50 2021 +1000
+
+    contact php
+
+commit 5b112c09ceb3eeca0caf4c19f7036dd71b75c7d3
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 15:34:18 2021 +1000
+
+    blog
+
+commit ac66766215a503ee022b5c6152438ab74ee265ec
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 15:25:11 2021 +1000
+
+    cv
+
+commit 4a516d3b70d521fcff3e9d9c95ce95d9f49571c7
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 15:17:08 2021 +1000
+
+    cv
+
+commit c598ae1911faa7c4d364792869bc88e006e3437e
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 15:14:59 2021 +1000
+
+    cv
+
+commit e11097129d66dd316802574285e59c05b8a734ef
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 14:56:40 2021 +1000
+
+    menu src
+
+commit db8616e538bf7d27846a310fd005d1d590540d68
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 14:49:24 2021 +1000
+
+    logo fix
+
+commit dc5b6480013daa41c7c18ad30e73ff4298698c01
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 14:43:31 2021 +1000
+
+    img folder
+
+commit 0fb8c3296f68f9a7906b59bb30ebe2b4da87ed17
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 14:38:06 2021 +1000
+
+    background
+
+commit 2685126945a119533f6f777bb2ab4ce52b1cba72
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 14:35:11 2021 +1000
+
+    src fixed
+
+commit 62f75edf8bad84539671126991194f415b60d159
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Fri Nov 12 09:29:57 2021 +1000
+
+    src fixed
+
+commit 9c856c208011e9833968b93326df8af3336971e2
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Thu Nov 11 15:39:31 2021 +1000
+
+    src fixed
+
+commit ef34dad850b2abf40c77851fd4fc7813a7551fde
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Thu Nov 11 15:32:37 2021 +1000
+
+    src fixed
+
+commit 58f9a9684c4cb64b758d322ebf8225ed7ac2ed47
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Thu Nov 11 15:14:26 2021 +1000
+
+    new file location
+
+commit 5c37dbf907d0ec04d58476b910ee480d18329485
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Thu Nov 11 15:03:17 2021 +1000
+
+    src changed
+
+commit 91bcdca7175a12f48b1393d5bae9fe3cad025b35
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Thu Nov 11 14:52:32 2021 +1000
+
+    styling blog and contact
+
+commit bb7bd5ba55a2fd947b7cea86fdb674e95340ce07
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Thu Nov 11 14:49:01 2021 +1000
+
+    changing src
+
+commit 05ba0f71b40ed66a0c00ba83de26a8f0197c248e
+Author: jpmajarres <jmanjarres@gmail.com>
+Date:   Thu Nov 11 14:11:15 2021 +1000
+
+    initial comit
