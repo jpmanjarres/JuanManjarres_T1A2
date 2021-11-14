@@ -68,6 +68,7 @@ img{
 .name {
   margin: auto;
   display: table;
+  width: 410px;
   /* margin-left: 22%;
   margin-top: 5%;
   position: relative;
