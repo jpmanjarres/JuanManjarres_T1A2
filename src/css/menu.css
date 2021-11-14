@@ -1,59 +1,130 @@
 
-#btn-menu {
-    display: none;
+header{
+    background-color: transparent;
+    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
+    position:sticky;
+    width: 100%;
+    z-index: 13;
 }
-
-
-header label {
-    display: none;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-    border-right: 1px solid #fff;
-}
-header label :hover{
-cursor: pointer;
-background: rgba(0, 0, 0, 0, 0.3);
-
-}
-
-.menu ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
 a.ex1:hover, a.ex1:active {color: red;}
 
-.menu li a{
-    display: block;
-    padding: 15px 20px;
-    color: #003453;
-    text-decoration: none;
-    font-size: 160%;
+header ul {
+
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    /* background-color: #4E94AB; */
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width:768px) {
 
-    header label {
-        display: block;
+header ul a { 
+    display: block;
+    padding: 10px 20px;
+    /* border-bottom: 1px solid#003453; */
+    text-decoration: none;
+    font-size: 160%;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    color: #003453;
+}
+
+
+
+header .logo{
+    float: left;
+}
+
+header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-heigh .2 ease-out;
+}
+
+/* ** Hamburger menu */
+header .menu-icon{
+    padding: 38px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+
+header .menu-icon .nav-icon {
+    background: red;
+    display: block;
+    height: 4px;
+    width: 38px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+header .menu-icon .nav-icon:before {
+    background: red;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 8px;
+}
+
+.menu-icon .nav-icon:after {
+    background: red;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -8px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.menu-btn:checked ~ .menu{
+   max-height: 240px; 
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon::before{
+    transform: rotate(-45deg);
+    top:0;
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon::after{
+    transform: rotate(45deg);
+    top:0;
+}
+
+@media (min-width: 48em) {
+    header li{
+        float:left;
     }
 
-    .menu{
-        position: absolute;
-        background: #4E94AB;
-        width: 70%;
-        margin-left: -70%;
-        transition: all 0.5s;
-        }
+    header li a{
+padding: 20px 30px;
+    
+}
 
-    .menu ul {
-        flex-direction: column;
-             }   
+header .menu {
+    clear: none;
+    float: right;
+    max-height:none;
+}
 
-    .menu li {
-        border-top: 1px solid #fff;
-            }
+header .menu-icon{
+    display: none;
+}
 
+.logo{
+    float: center;
+}
 }
