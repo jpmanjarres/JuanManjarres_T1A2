@@ -1,7 +1,7 @@
 
 header{
     background-color: transparent;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
     position:sticky;
     width: 100%;
     z-index: 13;
@@ -13,7 +13,7 @@ header ul {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    /* background-color: #4E94AB; */
+    background-color: rgb(86,117,130,0.4);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -105,7 +105,8 @@ header .menu-icon .nav-icon:before {
 }
 
 @media (min-width: 48em) {
-   
+    a.ex1:hover, a.ex1:active {color: red;}
+ 
     header{
         background-color: transparent;
         /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
@@ -114,12 +115,12 @@ header .menu-icon .nav-icon:before {
     }
     header li{
         float:left;
-        
+        color: transparent;
     }
 
     header li a{
 padding: 20px 30px;
-    
+
 }
 
 header .menu {

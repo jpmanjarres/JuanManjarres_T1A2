@@ -201,6 +201,7 @@ footer{
   .social-media{
       display: flex;
       flex-direction: row;
+      justify-content: center;
   }
 
 .commonP {
@@ -208,7 +209,7 @@ footer{
 }
 h1 { 
 margin-top: 30%;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .contenedor {
